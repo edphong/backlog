@@ -1,4 +1,5 @@
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/AppConfig.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/models/Movie.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/Main.java
-/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/controller/MovieRestController.java
-/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/MvcConfig.java
-/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/WebSecurityConfig.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/models/TopRatedMoviesResponse.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/controllers/HomeController.java
