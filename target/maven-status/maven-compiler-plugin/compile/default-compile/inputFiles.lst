@@ -1,5 +1,9 @@
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/DotenvConfig.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/controllers/WatchListController.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/AppConfig.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/models/Movie.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/Main.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/models/TopRatedMoviesResponse.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/services/MovieService.java
 /home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/controllers/HomeController.java
+/home/edphong/Desktop/projects/my-backlog/src/main/java/backlog/client/config/ApiKeyProvider.java

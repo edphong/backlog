@@ -34,9 +34,15 @@
         .header-title {
             flex: 2;
             text-align: center;
-            color: #1e90ff;
             margin: 0;
             font-size: 24px;
+        }
+        .header-title a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .header-title a:hover {
+            color: #0073e6;
         }
         .header-link {
             flex: 1;
@@ -92,10 +98,12 @@
         <div class="search-bar-container">
             <input type="text" class="search-bar" placeholder="Search for a movie...">
         </div>
-        <h1 class="header-title">myBacklog</h1>
+        <h1 class="header-title">
+            <a th:href="@{/}">myBacklog</a>
+        </h1>
         <a href="#" class="header-link" onclick="addToBacklog()">Watch List</a>
     </div>
-    <h2 class="trending-header">Trending Movies</h2>
+    <h2 class="trending-header">Popular</h2>
     <div class="movies-container">
         <!-- Loop through movies dynamically -->
         <div th:each="movie : ${movies}" class="movie">

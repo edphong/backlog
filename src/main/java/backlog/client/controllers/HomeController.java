@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.client.RestTemplate;
 
 import backlog.client.models.TopRatedMoviesResponse;
+import backlog.client.config.ApiKeyProvider;
 
 @Controller
 public class HomeController {
@@ -14,11 +15,14 @@ public class HomeController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Autowired
+    private ApiKeyProvider apiKeyProvider;
+
     @GetMapping("/")
     public String index(Model model) {
-		// trending films today
+        // trending films today
         String url = "https://api.themoviedb.org/3/trending/movie/day?language=en-US";
-        String apiKey = "8ececc456d5c418cfc2f37bf7df457d8";  // Add your API key here
+        String apiKey = apiKeyProvider.getApiKey();  // Retrieve API key using ApiKeyProvider
         
         TopRatedMoviesResponse response = restTemplate.getForObject(url + "&api_key=" + apiKey, TopRatedMoviesResponse.class);
 
